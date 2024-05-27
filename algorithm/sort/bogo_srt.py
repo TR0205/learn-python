@@ -18,4 +18,5 @@ def bogo_sort(numbers: List[int]) -> list[int]:
         random.shuffle(numbers)
     return numbers
 
-print(bogo_sort([1,5,3,2,6]))
+nums = [random.randint(0, 1000) for _ in range(10)]
+print(bogo_sort(nums))
