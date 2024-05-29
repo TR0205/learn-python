@@ -1,5 +1,5 @@
 services:
-  app:
+  python:
     build:
       context: .
       dockerfile: Dockerfile
