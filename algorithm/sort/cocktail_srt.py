@@ -21,6 +21,7 @@ def cocktail(numbers: List[int]) -> List[int]:
 
         # limitの変更
         end = end - 1
+        # [4,5,1,8,7,3]の場合、[4,5,1,8,7]を7からソートしていく
         for i in range(end-1, start-1, -1):
             if numbers[i] > numbers[i+1]:
                 numbers[i], numbers[i+1] = numbers[i+1], numbers[i]
